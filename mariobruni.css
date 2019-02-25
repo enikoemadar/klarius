@@ -686,7 +686,7 @@ a {
     font-weight: 300;
     text-align: left;
     position: absolute;
-    width: 430px;
+    width: 25%;
   top: 101%;
   left: 1.5%;
   margin: auto;
@@ -972,7 +972,7 @@ margin: auto;
 .book .book-title {
   color: #fff;
   font-weight: 600;
-  font-size: 2.3rem;
+  font-size: 2.6rem;
   text-align: top left;
   font-family: 'Bebas Neue', sans-serif;
   padding-top: 0;
@@ -990,9 +990,9 @@ margin: auto;
   text-align: left;
   font-family: 'Exo' , 'Bebas Neue' , sans-serif;
   text-transform: uppercase;
-  width: 450px;
+  width: 20%;
     position: absolute;
-  top: 617%;
+  top: 627%;
   left: 1.5%;
   margin: auto;
   
