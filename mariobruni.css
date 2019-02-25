@@ -711,12 +711,11 @@ a {
   font-weight: 300;
   text-align: left;
   position: absolute;
-  width: 430px;
-top: 110%;
+  width: 400px;
+top: 101%;
 left: 1.5%;
 margin: auto;
 height: auto;
-max-height: 300%;
 bottom: 600%;
  
 font-family: 'Exo' , sans-serif;
@@ -729,14 +728,14 @@ text-transform: uppercase;
 ======================================*/
 .logo {
 height: 100vh;
-position: top left;
+position: center;
 color: #fff;
 text-align: left
 }
 
 .logo .logo-content {
 text-align: left;
-position: top;
+position: center;
 top: 0;
 left: -30px;
 padding: -20;
@@ -1000,7 +999,7 @@ margin: auto;
 .book .book-title {
   color: #fff;
   font-weight: 600;
-  font-size: 2.3rem;
+  font-size: 2.6rem;
   text-align: top left;
   font-family: 'Bebas Neue', sans-serif;
   padding-top: 0;
@@ -1020,7 +1019,7 @@ margin: auto;
   text-transform: uppercase;
   width: 70%;
     position: absolute;
-  top: 617%;
+  top: 627%;
   left: 1.5%;
   margin: auto;
   
