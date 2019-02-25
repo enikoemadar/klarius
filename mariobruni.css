@@ -685,8 +685,8 @@ a {
     font-size: 0.88rem;
     font-weight: 300;
     text-align: left;
-    position: absolute;
-    width: 25%;
+    position: relative;
+    width: 30% auto;
     max-height: 100%;
   top: 101%;
   left: 1.5%;
@@ -704,7 +704,10 @@ a {
   height: 100vh;
   position: top left;
   color: #fff;
-  text-align: left
+  text-align: left;
+  width: 100% relative;
+  height: 100% relative;
+
 }
 
 .logo .logo-content {
