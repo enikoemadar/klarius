@@ -270,7 +270,7 @@ a {
 
 .scrolltop-mf span {
   z-index: 999;
-  position: relative;
+  position: fixed;
   width: 42px;
   height: 42px;
   background-color: #000;
@@ -572,7 +572,32 @@ a {
   opacity: 0.9;
 }
 
-
+.navbar {
+  margin: 10px 0;
+  
+  }
+  .navbar-default {
+  background-color: #fff;
+  border-color: #fff;
+  }
+  .brand-name {
+  font-family: 'Josefin Slab', serif;
+  font-size: 47px;
+  font-weight: bold;
+  color: #444;
+  text-decoration: none;
+  }
+  
+  .nav-container {
+  padding-top: 8px;
+  }
+  
+  .navbar-custom {
+  font-size: 20px;
+  background-color: #FFF;
+  
+  }
+  
 
 /*======================================
 //--//-->   INTRO
@@ -685,10 +710,9 @@ a {
     font-size: 0.88rem;
     font-weight: 300;
     text-align: left;
-    position: relative;
-    width: 30% auto;
-    max-height: 100%;
-  top: 101%;
+    position: absolute;
+    width: 430px;
+  top: 110%;
   left: 1.5%;
   margin: auto;
    
@@ -705,17 +729,15 @@ a {
   position: top left;
   color: #fff;
   text-align: left;
-  
-
+  top: 200%;
 }
 
 .logo .logo-content {
   text-align: left;
-  position: center;
+  position: top;
   top: 0;
+  left: -30px;
   padding: -20;
-  width: 100%;
-  height: 100%;
 }
 
 
@@ -755,16 +777,16 @@ margin: auto;
 
 
 /*======================================
-//--//-->   VIDEO
+//--//-->   LOGO
 ======================================*/
-.video {
-  height: 100%;
-  width: 100%;
-  position: top center;
- 
+.logo {
+  height: 100vh;
+  position: top left;
+  color: #fff;
+  text-align: left
 }
 
-.video .video-content {
+.logo .logo-content {
   text-align: left;
   position: top;
   top: 0;
@@ -773,7 +795,7 @@ margin: auto;
 }
 
 
-.video .video-title {
+.logo .logo-title {
   color: #fff;
   font-weight: 600;
   font-size: 3rem;
@@ -781,7 +803,7 @@ margin: auto;
   font-family: 'Bebas Neue', sans-serif;
   padding-top: 0;
   margin-left: 0;
-  position: relative;
+  position: absolute;
   
 top: 310%;
 left: 1.5%;
@@ -791,7 +813,7 @@ margin: auto;
   
 }
 
-.video .video-subtitle {
+.logo .logo-subtitle {
   color: #fff;
     font-size: 1.2rem;
   font-weight: 500;
@@ -838,7 +860,7 @@ margin: auto;
     height: 100%;
     width: 100%;
     opacity: .9;
-    position: relative;
+    position: fixed;
   }
   
   .event .event-title {
@@ -976,7 +998,7 @@ margin: auto;
 .book .book-title {
   color: #fff;
   font-weight: 600;
-  font-size: 2.6rem;
+  font-size: 2.3rem;
   text-align: top left;
   font-family: 'Bebas Neue', sans-serif;
   padding-top: 0;
@@ -994,9 +1016,9 @@ margin: auto;
   text-align: left;
   font-family: 'Exo' , 'Bebas Neue' , sans-serif;
   text-transform: uppercase;
-  width: 20%;
+  width: 450px;
     position: absolute;
-  top: 627%;
+  top: 617%;
   left: 1.5%;
   margin: auto;
   
