@@ -665,128 +665,130 @@ a {
 //--//-->   ABOUT
 ======================================*/
 .about {
-    height: 100vh;
-    position: top left;
-    color: #fff;
-    text-align: left
-  }
-  
-  .about .about-content {
-    text-align: left;
-    position: left;
-    
-  }
-  .about .overlay-itro {
-    background-color: rgba(0, 0, 0, 0.6);
-    top: 100;
-    left: 0px;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    opacity: .9;
-    position: relative;
-  }
-  
-  
-  
-  .about .about-title {
-    color: #fff;
-    font-weight: 600;
-    font-size: 2rem;
-    text-align: left;
-    font-family: 'Bebas Neue', 'Acumin Pro', sans-serif;
-    padding-top: 0;
-    margin-left: 0;
-    position: absolute;
-    top: 102%;
-    left: 0;
-    margin: auto;
-    text-transform: uppercase;
-    
-  }
-
-  .about .about-subtitle {
-    color: #fff;
-    font-size: 0.88rem;
-    font-weight: 300;
-    text-align: left;
-    position: absolute;
-    width: 430px;
-  top: 110%;
-  left: 1.5%;
-  margin: auto;
-   
-  font-family: 'Exo' , sans-serif;
-  text-transform: uppercase;
-    
-  }
-
-/*======================================
-//--//-->   LOGO
-======================================*/
-.logo {
-  height: 100vh;
-  position: top left;
-  color: #fff;
-  text-align: left;
-  top: 200%;
-}
-
-.logo .logo-content {
-  text-align: left;
-  position: top;
-  top: 0;
-  left: -30px;
-  padding: -20;
-}
-
-
-.logo .logo-title {
-  color: #fff;
-  font-weight: 600;
-  font-size: 3rem;
-  text-align: top left;
-  font-family: 'Bebas Neue', sans-serif;
-  padding-top: 0;
-  margin-left: 0;
-  position: absolute;
-  
-top: 210%;
-left: 1.5%;
-margin: auto;
-
-  
-  
-}
-
-.logo .logo-subtitle {
-  color: #fff;
-    font-size: 1.2rem;
-  font-weight: 500;
-  text-align: left;
-  left: 40px;  /* positioning of text */
-  font-family: 'Exo', sans-serif;
-  text-transform: uppercase;
-  position: absolute;
-  
-top: 220%;
-left: 1.5%;
-margin: auto;
-  
-}
-
-
-/*======================================
-//--//-->   LOGO
-======================================*/
-.logo {
   height: 100vh;
   position: top left;
   color: #fff;
   text-align: left
 }
 
+.about .about-content {
+  text-align: left;
+  position: left;
+  
+}
+.about .overlay-itro {
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 100;
+  left: 0px;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  opacity: .9;
+  position: relative;
+}
+
+
+
+.about .about-title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: left;
+  font-family: 'Bebas Neue', 'Acumin Pro', sans-serif;
+  padding-top: 0;
+  margin-left: 0;
+  position: absolute;
+  top: 102%;
+  left: 0;
+  margin: auto;
+  text-transform: uppercase;
+  
+}
+
+.about .about-subtitle {
+  color: #fff;
+  font-size: 0.88rem;
+  font-weight: 300;
+  text-align: left;
+  position: absolute;
+  width: 430px;
+top: 110%;
+left: 1.5%;
+margin: auto;
+height: auto;
+max-height: 300%;
+bottom: 600%;
+ 
+font-family: 'Exo' , sans-serif;
+text-transform: uppercase;
+  
+}
+
+/*======================================
+//--//-->   LOGO
+======================================*/
+.logo {
+height: 100vh;
+position: top left;
+color: #fff;
+text-align: left
+}
+
 .logo .logo-content {
+text-align: left;
+position: top;
+top: 0;
+left: -30px;
+padding: -20;
+}
+
+
+.logo .logo-title {
+color: #fff;
+font-weight: 600;
+font-size: 3rem;
+text-align: top left;
+font-family: 'Bebas Neue', sans-serif;
+padding-top: 0;
+margin-left: 0;
+position: absolute;
+
+top: 210%;
+left: 1.5%;
+margin: auto;
+
+
+
+}
+
+.logo .logo-subtitle {
+color: #fff;
+  font-size: 1.2rem;
+font-weight: 500;
+text-align: left;
+left: 40px;  /* positioning of text */
+font-family: 'Exo', sans-serif;
+text-transform: uppercase;
+position: absolute;
+
+top: 220%;
+left: 1.5%;
+margin: auto;
+
+}
+
+
+/*======================================
+//--//-->   LOGO
+======================================*/
+.video {
+  height: 100vh;
+  position: top left;
+  color: #fff;
+  text-align: left
+}
+
+.video .video-content {
   text-align: left;
   position: top;
   top: 0;
@@ -795,7 +797,7 @@ margin: auto;
 }
 
 
-.logo .logo-title {
+.video .video-title {
   color: #fff;
   font-weight: 600;
   font-size: 3rem;
@@ -813,7 +815,7 @@ margin: auto;
   
 }
 
-.logo .logo-subtitle {
+.video .video-subtitle {
   color: #fff;
     font-size: 1.2rem;
   font-weight: 500;
@@ -1016,7 +1018,7 @@ margin: auto;
   text-align: left;
   font-family: 'Exo' , 'Bebas Neue' , sans-serif;
   text-transform: uppercase;
-  width: 450px;
+  width: 70%;
     position: absolute;
   top: 617%;
   left: 1.5%;
