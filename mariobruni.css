@@ -725,21 +725,22 @@ text-transform: uppercase;
 /*======================================
 //--//-->   LOGO
 ======================================*/
-.logo {
+.k {
 height: 100vh;
 position: center;
 color: #fff;
-text-align: left
+text-align: left;
+opacity: 50%;
 }
 
-.logo .logo-content {
+.k .k-content {
 text-align: left;
 position: center bottom;
 
 }
 
 
-.logo .logo-title {
+.k .k-title {
 color: #fff;
 font-weight: 600;
 font-size: 3rem;
@@ -757,7 +758,7 @@ margin: auto;
 
 }
 
-.logo .logo-subtitle {
+.k .k-subtitle {
 color: #fff;
   font-size: 1.2rem;
 font-weight: 500;
@@ -769,7 +770,6 @@ position: absolute;
 
 top: 220%;
 left: 1.5%;
-margin: auto;
 
 }
 
@@ -777,6 +777,65 @@ margin: auto;
 /*======================================
 //--//-->   LOGO
 ======================================*/
+
+/*======================================
+//--//-->   LOGO real
+======================================*/
+.logo {
+  height: 100vh;
+  position: center;
+  color: #fff;
+  text-align: left
+  }
+  
+  .logo .logo-content {
+  text-align: left;
+  position: center bottom;
+  
+  }
+  
+  
+  .logo .logo-title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 3rem;
+  text-align: top left;
+  font-family: 'Bebas Neue', sans-serif;
+  padding-top: 0;
+  margin-left: 0;
+  position: absolute;
+  
+  top: 310%;
+  left: 1.5%;
+  margin: auto;
+  
+  
+  
+  }
+  
+  .logo .logo-subtitle {
+  color: #fff;
+    font-size: 1.2rem;
+  font-weight: 500;
+  text-align: left;
+  left: 40px;  /* positioning of text */
+  font-family: 'Exo', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  
+  top: 320%;
+  left: 1.5%;
+  
+  }
+  
+  
+  /*======================================
+  //--//-->   LOGO real
+  ======================================*/
+
+
+
+
 .video {
   height: 100vh;
   position: top left;
@@ -803,7 +862,7 @@ margin: auto;
   margin-left: 0;
   position: absolute;
   
-top: 310%;
+top: 410%;
 left: 1.5%;
 margin: auto;
 
@@ -821,7 +880,7 @@ margin: auto;
   text-transform: uppercase;
   position: absolute;
   
-top: 320%;
+top: 420%;
 left: 1.5%;
 margin: auto;
   
@@ -871,7 +930,7 @@ margin: auto;
     margin-left: 0;
     position: absolute;
     
-  top: 410%;
+  top: 510%;
   left: 1.5%;
   margin: auto;
 
@@ -889,7 +948,7 @@ margin: auto;
     text-transform: uppercase;
     position: absolute;
     
-  top: 420%;
+  top: 520%;
   left: 1.5%;
   margin: auto;
     
@@ -898,82 +957,13 @@ margin: auto;
 /* RELEASES */
 
 .releases {
-    height: 100vh;
-    position: top left;
-    color: #fff;
-    text-align: left
-  }
-  
-  .releases .releases-content {
-    text-align: left;
-    position: top;
-    top: 0;
-    left: -30px;
-    padding: -20;
-  }
-  
-  
-  .releases .overlay-itro {
-    background-color: rgba(15, 15, 15, 0.6);
-    position: relative;
-    top: 500;
-    left: 0px;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    opacity: .9;
-  }
-  
-  .releases .releases-title {
-    color: #fff;
-    font-weight: 600;
-    font-size: 3rem;
-    text-align: top left;
-    font-family: 'Bebas Neue', sans-serif;
-    padding-top: 0;
-    margin-left: 0;
-    position: absolute;
-  top: 510%;
-  left: 1.5%;
-  margin: auto;
-  text-transform: uppercase;
-    
-  }
-  
-  .releases .releases-subtitle {
-    color: #fff;
-      font-size: 1.5rem;
-    font-weight: 500;
-    text-align: left;
-    position: absolute;
-    top: 3030px;
-    font-family: 'Exo' , 'Bebas Neue' , sans-serif;
-    text-transform: uppercase;
-    width: 450px auto;
-    position: absolute;
-  top: 517%;
-  left: 1.5%;
-  margin: auto;
-    
-  }
-  
-  
-  /* End of Releases */
-
-
-  /*======================================
-//--//-->   BOOK
-======================================*/
-/* BOOK */
-
-.book {
   height: 100vh;
   position: top left;
   color: #fff;
   text-align: left
 }
 
-.book .book-content {
+.releases .releases-content {
   text-align: left;
   position: top;
   top: 0;
@@ -982,7 +972,7 @@ margin: auto;
 }
 
 
-.book .overlay-itro {
+.releases .overlay-itro {
   background-color: rgba(15, 15, 15, 0.6);
   position: relative;
   top: 600;
@@ -993,33 +983,102 @@ margin: auto;
   opacity: .9;
 }
 
-.book .book-title {
+.releases .releases-title {
   color: #fff;
   font-weight: 600;
-  font-size: 2.6rem;
+  font-size: 3rem;
   text-align: top left;
   font-family: 'Bebas Neue', sans-serif;
   padding-top: 0;
   margin-left: 0;
   position: absolute;
-  top: 610%;
-  left: 1.5%;
-  margin: auto;
+top: 610%;
+left: 1.5%;
+margin: auto;
+text-transform: uppercase;
+  
+}
+
+.releases .releases-subtitle {
+  color: #fff;
+    font-size: 1.5rem;
+  font-weight: 500;
+  text-align: left;
+  position: absolute;
+  top: 3030px;
+  font-family: 'Exo' , 'Bebas Neue' , sans-serif;
+  text-transform: uppercase;
+  width: 450px auto;
+  position: absolute;
+top: 617%;
+left: 1.5%;
+margin: auto;
+  
+}
+
+
+/* End of Releases */
+
+
+/*======================================
+//--//-->   BOOK
+======================================*/
+/* BOOK */
+
+.book {
+height: 100vh;
+position: top left;
+color: #fff;
+text-align: left
+}
+
+.book .book-content {
+text-align: left;
+position: top;
+top: 0;
+left: -30px;
+padding: -20;
+}
+
+
+.book .overlay-itro {
+background-color: rgba(15, 15, 15, 0.6);
+position: relative;
+top: 700;
+left: 0px;
+padding: 0;
+height: 100%;
+width: 100%;
+opacity: .9;
+}
+
+.book .book-title {
+color: #fff;
+font-weight: 600;
+font-size: 2.6rem;
+text-align: top left;
+font-family: 'Bebas Neue', sans-serif;
+padding-top: 0;
+margin-left: 0;
+position: absolute;
+top: 710%;
+left: 1.5%;
+margin: auto;
 }
 
 .book .book-subtitle {
-  color: #fff;
-  font-size: 1.3rem;
-  font-weight: 400;
-  text-align: left;
-  font-family: 'Exo' , 'Bebas Neue' , sans-serif;
-  text-transform: uppercase;
-  width: 70%;
-    position: absolute;
-  top: 637%;
-  left: 1.5%;
-  margin: auto;
-  
+color: #fff;
+font-size: 1.3rem;
+font-weight: 400;
+text-align: left;
+font-family: 'Exo' , 'Bebas Neue' , sans-serif;
+text-transform: uppercase;
+width: 70%;
+  position: absolute;
+top: 737%;
+left: 1.5%;
+margin: auto;
+
 }
 
 /* End of BOOK */
@@ -1029,13 +1088,13 @@ margin: auto;
 ======================================*/
 
 .footer-paralax {
-  padding: 4rem 0 0 0;
-  font-family: 'Exo' , 'Bebas Neue' , sans-serif;
+padding: 4rem 0 0 0;
+font-family: 'Exo' , 'Bebas Neue' , sans-serif;
 }
 
 .contact-mf {
-  margin-top: 4rem;
-  font-family: 'Exo' , 'Bebas Neue' , sans-serif;
+margin-top: 4rem;
+font-family: 'Exo' , 'Bebas Neue' , sans-serif;
 }
 
 /*======================================
@@ -1043,22 +1102,22 @@ margin: auto;
 ======================================*/
 
 footer {
-  text-align: center;
-  color: #fff;
-  padding-bottom: 2rem;
-  font-family: 'Exo', sans-serif;
+text-align: center;
+color: #fff;
+padding-bottom: 2rem;
+font-family: 'Exo', sans-serif;
 }
 
 footer .copyright {
-  margin-bottom: 0;
+margin-bottom: 0;
 }
 
 footer .credits {
-  margin-bottom: 0;
+margin-bottom: 0;
 }
 
 footer .credits a {
-  color: #fff;
+color: #fff;
 }
 
 /*======================================
@@ -1066,40 +1125,40 @@ footer .credits a {
 ======================================*/
 
 #sendmessage {
-  color: #000;
-  border: 1px solid #000;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-  font-family: 'Exo' , 'Bebas Neue' , sans-serif;
+color: #000;
+border: 1px solid #000;
+display: none;
+text-align: center;
+padding: 15px;
+font-weight: 600;
+margin-bottom: 15px;
+font-family: 'Exo' , 'Bebas Neue' , sans-serif;
 }
 
 #errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-  font-family: 'Exo' , 'Bebas Neue' , sans-serif;
+color: red;
+display: none;
+border: 1px solid red;
+text-align: center;
+padding: 15px;
+font-weight: 600;
+margin-bottom: 15px;
+font-family: 'Exo' , 'Bebas Neue' , sans-serif;
 }
 
 #sendmessage.show,
 #errormessage.show,
 .show {
-  display: block;
+display: block;
 }
 
 .validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-  font-family: 'Exo' , 'Bebas Neue' , sans-serif;
+color: red;
+display: none;
+margin: 0 0 20px;
+font-weight: 400;
+font-size: 13px;
+font-family: 'Exo' , 'Bebas Neue' , sans-serif;
 }
 
 /*======================================
@@ -1107,143 +1166,143 @@ footer .credits a {
 ======================================*/
 
 .button {
-  display: inline-block;
-  padding: .3rem .6rem;
-  text-align: center;
-  vertical-align: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  font-size: 1rem;
-  border-radius: .3rem;
-  border: 1px solid transparent;
-  transition: all 500ms ease;
-  cursor: pointer;
-  font-family: 'Exo' , 'Bebas Neue' , sans-serif;
+display: inline-block;
+padding: .3rem .6rem;
+text-align: center;
+vertical-align: middle;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+font-size: 1rem;
+border-radius: .3rem;
+border: 1px solid transparent;
+transition: all 500ms ease;
+cursor: pointer;
+font-family: 'Exo' , 'Bebas Neue' , sans-serif;
 }
 
 .button:focus {
-  outline: 0;
+outline: 0;
 }
 
 .button:hover {
-  background-color: #000;
-  color: #fff;
-  transition: all 500ms ease;
+background-color: #000;
+color: #fff;
+transition: all 500ms ease;
 }
 
 .button-a {
-  background-color: #000;
-  color: #fff;
-  border-color: #cde1f8;
+background-color: #000;
+color: #fff;
+border-color: #cde1f8;
 }
 
 .button-big {
-  padding: .9rem 2.3rem;
-  font-size: 1.2rem;
-  font-family: 'Exo' , 'Bebas Neue' , sans-serif;
+padding: .9rem 2.3rem;
+font-size: 1.2rem;
+font-family: 'Exo' , 'Bebas Neue' , sans-serif;
 }
 
 .button-rouded {
-  border-radius: 5rem;
+border-radius: 5rem;
 }
 
 .btn-lg {
-  padding: .5rem 1rem;
-  font-size: 1.25rem;
-  line-height: 1.5;
-  border-radius: .3rem;
-  font-family: 'Exo' , 'Bebas Neue' , sans-serif;
+padding: .5rem 1rem;
+font-size: 1.25rem;
+line-height: 1.5;
+border-radius: .3rem;
+font-family: 'Exo' , 'Bebas Neue' , sans-serif;
 }
 
 @media (min-width: 577px) {
-  .counter-box {
-    margin-bottom: 1.8rem;
-    font-family: 'Exo' , 'Bebas Neue' , sans-serif;
-  }
+.counter-box {
+  margin-bottom: 1.8rem;
+  font-family: 'Exo' , 'Bebas Neue' , sans-serif;
+}
 }
 
 @media (min-width: 767px) {
-  .about-mf .box-pl2 {
-    margin-top: 3rem;
-    padding-left: 0rem;
-    font-family: 'Exo' , 'Bebas Neue' , sans-serif;
-  }
+.about-mf .box-pl2 {
+  margin-top: 3rem;
+  padding-left: 0rem;
+  font-family: 'Exo' , 'Bebas Neue' , sans-serif;
+}
 
-  .card-blog {
-    margin-bottom: 3rem;
-    font-family: 'Exo' , 'Bebas Neue' , sans-serif;
-  }
+.card-blog {
+  margin-bottom: 3rem;
+  font-family: 'Exo' , 'Bebas Neue' , sans-serif;
+}
 
-  .contact-mf .box-pl2 {
-    margin-top: 3rem;
-    padding-left: 0rem;
-    font-family: 'Exo' , 'Bebas Neue' , sans-serif;
-  }
+.contact-mf .box-pl2 {
+  margin-top: 3rem;
+  padding-left: 0rem;
+  font-family: 'Exo' , 'Bebas Neue' , sans-serif;
+}
 }
 
 @media (min-width: 768px) {
-  .box-shadow-full {
-    padding: 3rem;
-  }
+.box-shadow-full {
+  padding: 3rem;
+}
 
-  .navbar-b.navbar-trans .nav-item,
-  .navbar-b.navbar-reduce .nav-item {
-    padding-left: 10px;
-  }
+.navbar-b.navbar-trans .nav-item,
+.navbar-b.navbar-reduce .nav-item {
+  padding-left: 10px;
+}
 
-  .navbar-b.navbar-trans .nav-link:before,
-  .navbar-b.navbar-reduce .nav-link:before {
-    margin-left: 18px;
-  }
+.navbar-b.navbar-trans .nav-link:before,
+.navbar-b.navbar-reduce .nav-link:before {
+  margin-left: 18px;
+}
 
-  .intro .intro-title {
-    font-size: 4.5rem;
-  }
+.intro .intro-title {
+  font-size: 4.5rem;
+}
 
-  .intro .intro-subtitle {
-    font-size: 2.5rem;
-  }
+.intro .intro-subtitle {
+  font-size: 2.5rem;
+}
 
-  .intro-single .intro-title {
-    font-size: 3.5rem;
-  }
+.intro-single .intro-title {
+  font-size: 3.5rem;
+}
 
-  .testimonial-box .description {
-    padding: 0 5rem;
-  }
+.testimonial-box .description {
+  padding: 0 5rem;
+}
 
-  .post-box,
-  .form-comments,
-  .box-comments,
-  .widget-sidebar {
-    padding: 3rem;
-  }
+.post-box,
+.form-comments,
+.box-comments,
+.widget-sidebar {
+  padding: 3rem;
+}
 
-  .blog-wrapper .article-title {
-    font-size: 1.9rem;
-  }
+.blog-wrapper .article-title {
+  font-size: 1.9rem;
+}
 
-  .box-comments .list-comments .comment-author {
-    font-size: 1.5rem;
-  }
+.box-comments .list-comments .comment-author {
+  font-size: 1.5rem;
+}
 }
 
 @media (min-width: 992px) {
-  .testimonial-box .description {
-    padding: 0 8rem;
-  }
+.testimonial-box .description {
+  padding: 0 8rem;
+}
 }
 
 @media (min-width: 1200px) {
-  .testimonial-box .description {
-    padding: 0 13rem;
-  }
+.testimonial-box .description {
+  padding: 0 13rem;
+}
 }
 
 @media (max-width: 768px) {
-  .back-to-top {
-    bottom: 15px;
-  }
+.back-to-top {
+  bottom: 15px;
+}
 }
