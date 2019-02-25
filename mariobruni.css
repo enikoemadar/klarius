@@ -705,17 +705,17 @@ a {
   position: top left;
   color: #fff;
   text-align: left;
-  width: 100% relative;
-  height: 100% relative;
+  
 
 }
 
 .logo .logo-content {
   text-align: left;
-  position: top;
+  position: center;
   top: 0;
-  left: -30px;
   padding: -20;
+  width: 100%;
+  height: 100%;
 }
 
 
