@@ -711,10 +711,9 @@ a {
   font-weight: 300;
   text-align: left;
   position: absolute;
-  width: 250px ;
-top: 101%;
+  width: 290px ;
+top: 102%;
 left: 1.5%;
-height: auto;
 bottom: 600%;
  
 font-family: 'Exo' , sans-serif;
@@ -732,6 +731,11 @@ color: #fff;
 text-align: left;
 opacity: 50%;
 }
+
+.k .bg-image {
+  opacity: 30%;
+}
+
 
 .k .k-content {
 text-align: left;
@@ -846,7 +850,7 @@ left: 1.5%;
 .video .video-content {
   text-align: left;
   position: top;
-  top: 0;
+  top: 400;
   left: -30px;
   padding: -20;
 }
