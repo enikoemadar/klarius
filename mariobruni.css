@@ -687,6 +687,7 @@ a {
     text-align: left;
     position: absolute;
     width: 25%;
+    max-height: 100%;
   top: 101%;
   left: 1.5%;
   margin: auto;
