@@ -915,14 +915,13 @@ text-align: left;
 position: top;
 
 left: -30px;
-padding: -20;
 }
 
 
 .book .overlay-itro {
 background-color: rgba(15, 15, 15, 0.6);
 position: absolute;
-top: 500vh;
+top: 500;
 left: 0px;
 padding: 0;
 height: 100%;
