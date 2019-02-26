@@ -683,7 +683,7 @@ a {
   padding: 0;
   height: 100%;
   width: 100%;
-  opacity: .9;
+  opacity: .0;
   position: relative;
 }
 
@@ -715,72 +715,14 @@ a {
 top: 102%;
 left: 1.5%;
 bottom: 600%;
+opacity: .0;
  
 font-family: 'Exo' , sans-serif;
 text-transform: uppercase;
   
 }
 
-/*======================================
-//--//-->   LOGO
-======================================*/
-.k {
-height: 100vh;
-position: center;
-color: #fff;
-text-align: left;
-opacity: 50%;
-}
 
-.k .bg-image {
-  opacity: 0.5;
-}
-
-
-.k .k-content {
-text-align: left;
-position: center bottom;
-
-}
-
-
-.k .k-title {
-color: #fff;
-font-weight: 600;
-font-size: 3rem;
-text-align: top left;
-font-family: 'Bebas Neue', sans-serif;
-padding-top: 0;
-margin-left: 0;
-position: absolute;
-
-top: 210%;
-left: 1.5%;
-margin: auto;
-
-
-
-}
-
-.k .k-subtitle {
-color: #fff;
-  font-size: 1.2rem;
-font-weight: 500;
-text-align: left;
-left: 40px;  /* positioning of text */
-font-family: 'Exo', sans-serif;
-text-transform: uppercase;
-position: absolute;
-
-top: 220%;
-left: 1.5%;
-
-}
-
-
-/*======================================
-//--//-->   LOGO
-======================================*/
 
 /*======================================
 //--//-->   LOGO real
@@ -809,7 +751,7 @@ left: 1.5%;
   margin-left: 0;
   position: absolute;
   
-  top: 310%;
+  top: 210%;
   left: 1.5%;
   margin: auto;
   
@@ -827,7 +769,7 @@ left: 1.5%;
   text-transform: uppercase;
   position: absolute;
   
-  top: 320%;
+  top: 220%;
   left: 1.5%;
   
   }
@@ -850,7 +792,7 @@ left: 1.5%;
 .video .video-content {
   text-align: left;
   position: top;
-  top: 400;
+  top: 300;
   left: -30px;
   padding: -20;
 }
@@ -866,7 +808,7 @@ left: 1.5%;
   margin-left: 0;
   position: absolute;
   
-top: 410%;
+top: 310%;
 left: 1.5%;
 margin: auto;
 
@@ -884,7 +826,7 @@ margin: auto;
   text-transform: uppercase;
   position: absolute;
   
-top: 420%;
+top: 320%;
 left: 1.5%;
 margin: auto;
   
@@ -915,7 +857,7 @@ margin: auto;
   .event .overlay-itro {
     background-color: rgba(15, 15, 15, 0.6);
     position: relative;
-    top: 300;
+    top: 400;
     left: 0px;
     padding: 0;
     height: 100%;
@@ -934,7 +876,7 @@ margin: auto;
     margin-left: 0;
     position: absolute;
     
-  top: 510%;
+  top: 410%;
   left: 1.5%;
   margin: auto;
 
@@ -952,7 +894,7 @@ margin: auto;
     text-transform: uppercase;
     position: absolute;
     
-  top: 520%;
+  top: 420%;
   left: 1.5%;
   margin: auto;
     
@@ -979,7 +921,7 @@ margin: auto;
 .releases .overlay-itro {
   background-color: rgba(15, 15, 15, 0.6);
   position: relative;
-  top: 600;
+  top: 500;
   left: 0px;
   padding: 0;
   height: 100%;
@@ -996,7 +938,7 @@ margin: auto;
   padding-top: 0;
   margin-left: 0;
   position: absolute;
-top: 610%;
+top: 510%;
 left: 1.5%;
 margin: auto;
 text-transform: uppercase;
@@ -1009,12 +951,11 @@ text-transform: uppercase;
   font-weight: 500;
   text-align: left;
   position: absolute;
-  top: 3030px;
   font-family: 'Exo' , 'Bebas Neue' , sans-serif;
   text-transform: uppercase;
   width: 450px auto;
   position: absolute;
-top: 617%;
+top: 517%;
 left: 1.5%;
 margin: auto;
   
@@ -1048,7 +989,7 @@ padding: -20;
 .book .overlay-itro {
 background-color: rgba(15, 15, 15, 0.6);
 position: relative;
-top: 700;
+top: 600;
 left: 0px;
 padding: 0;
 height: 100%;
@@ -1065,7 +1006,7 @@ font-family: 'Bebas Neue', sans-serif;
 padding-top: 0;
 margin-left: 0;
 position: absolute;
-top: 710%;
+top: 610%;
 left: 1.5%;
 margin: auto;
 }
@@ -1079,7 +1020,7 @@ font-family: 'Exo' , 'Bebas Neue' , sans-serif;
 text-transform: uppercase;
 width: 70%;
   position: absolute;
-top: 737%;
+top: 617%;
 left: 1.5%;
 margin: auto;
 
@@ -1092,12 +1033,12 @@ margin: auto;
 ======================================*/
 
 .footer-paralax {
-padding: 4rem 0 0 0;
+padding: 0 0 0 0;
 font-family: 'Exo' , 'Bebas Neue' , sans-serif;
 }
 
 .contact-mf {
-margin-top: 4rem;
+margin-top: 6rem;
 font-family: 'Exo' , 'Bebas Neue' , sans-serif;
 }
 
