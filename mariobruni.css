@@ -792,7 +792,6 @@ text-transform: uppercase;
 .video .video-content {
   text-align: left;
   position: top;
-  top:600;
 }
 
 
@@ -846,7 +845,6 @@ margin: auto;
   .event .event-content {
     text-align: left;
     position: top;
-    top: 300;
     left: -30px;
     padding: -20;
   }
@@ -910,7 +908,6 @@ margin: auto;
 .releases .releases-content {
   text-align: left;
   position: top;
-  top: 400;
   left: -30px;
   padding: -20;
 }
