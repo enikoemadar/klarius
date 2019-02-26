@@ -792,6 +792,7 @@ text-transform: uppercase;
 .video .video-content {
   text-align: left;
   position: top;
+  top: 600%;
 }
 
 
@@ -975,7 +976,7 @@ text-align: left
 .book .book-content {
 text-align: left;
 position: top;
-top: 500;
+
 left: -30px;
 padding: -20;
 }
