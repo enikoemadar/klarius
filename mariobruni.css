@@ -792,7 +792,7 @@ text-transform: uppercase;
 .video .video-content {
   text-align: left;
   position: top;
-  top:300;
+  top:600;
 }
 
 
@@ -806,7 +806,7 @@ text-transform: uppercase;
   margin-left: 0;
   position: absolute;
   
-top: 310%;
+top: 610%;
 left: 1.5%;
 margin: auto;
 
@@ -824,7 +824,7 @@ margin: auto;
   text-transform: uppercase;
   position: absolute;
   
-top: 320%;
+top: 620%;
 left: 1.5%;
 margin: auto;
   
@@ -846,7 +846,7 @@ margin: auto;
   .event .event-content {
     text-align: left;
     position: top;
-    top: 400;
+    top: 300;
     left: -30px;
     padding: -20;
   }
@@ -855,7 +855,7 @@ margin: auto;
   .event .overlay-itro {
     background-color: rgba(15, 15, 15, 0.6);
     position: relative;
-    top: 400;
+    top: 300;
     left: 0px;
     padding: 0;
     height: 100%;
@@ -874,7 +874,7 @@ margin: auto;
     margin-left: 0;
     position: absolute;
     
-  top: 410%;
+  top: 310%;
   left: 1.5%;
   margin: auto;
 
@@ -892,7 +892,7 @@ margin: auto;
     text-transform: uppercase;
     position: absolute;
     
-  top: 420%;
+  top: 320%;
   left: 1.5%;
   margin: auto;
     
@@ -910,7 +910,7 @@ margin: auto;
 .releases .releases-content {
   text-align: left;
   position: top;
-  top: 500;
+  top: 400;
   left: -30px;
   padding: -20;
 }
@@ -919,7 +919,7 @@ margin: auto;
 .releases .overlay-itro {
   background-color: rgba(15, 15, 15, 0.6);
   position: relative;
-  top: 500;
+  top: 400;
   left: 0px;
   padding: 0;
   height: 100%;
@@ -936,7 +936,7 @@ margin: auto;
   padding-top: 0;
   margin-left: 0;
   position: absolute;
-top: 510%;
+top: 410%;
 left: 1.5%;
 margin: auto;
 text-transform: uppercase;
@@ -953,7 +953,7 @@ text-transform: uppercase;
   text-transform: uppercase;
   width: 450px auto;
   position: absolute;
-top: 517%;
+top: 417%;
 left: 1.5%;
 margin: auto;
   
@@ -978,7 +978,7 @@ text-align: left
 .book .book-content {
 text-align: left;
 position: top;
-top: 600;
+top: 500;
 left: -30px;
 padding: -20;
 }
@@ -987,7 +987,7 @@ padding: -20;
 .book .overlay-itro {
 background-color: rgba(15, 15, 15, 0.6);
 position: relative;
-top: 600;
+top: 500;
 left: 0px;
 padding: 0;
 height: 100%;
@@ -997,14 +997,14 @@ opacity: .9;
 
 .book .book-title {
 color: #fff;
-font-weight: 600;
+font-weight: 500;
 font-size: 2.6rem;
 text-align: top left;
 font-family: 'Bebas Neue', sans-serif;
 padding-top: 0;
 margin-left: 0;
 position: absolute;
-top: 610%;
+top: 510%;
 left: 1.5%;
 margin: auto;
 }
@@ -1018,7 +1018,7 @@ font-family: 'Exo' , 'Bebas Neue' , sans-serif;
 text-transform: uppercase;
 width: 70%;
   position: absolute;
-top: 617%;
+top: 517%;
 left: 1.5%;
 margin: auto;
 
