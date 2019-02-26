@@ -638,7 +638,7 @@ a {
   font-family: 'Bebas Neue', sans-serif;
   margin-left: 0;
   position: absolute;
-  bottom: 22%;
+  bottom: 22vh;
   left: 1.5%;
   margin: auto;
   font-size: 2rem;
@@ -651,7 +651,7 @@ a {
   text-align: left;
   position: absolute;
   right: 0;
-  bottom: 20%;
+  bottom: 20vh;
   left: 1.5%;
   margin: auto;
   font-family: 'Exo', 'Bebas Neue', sans-serif;
@@ -674,6 +674,7 @@ a {
 .about .about-content {
   text-align: left;
   position: left;
+  top: 100vh;
   
 }
 .about .overlay-itro {
@@ -698,10 +699,11 @@ a {
   padding-top: 0;
   margin-left: 0;
   position: absolute;
-  top: 102%;
+  top: 102vh;
   left: 0;
   margin: auto;
   text-transform: uppercase;
+  opacity: .0;
   
 }
 
@@ -712,7 +714,7 @@ a {
   text-align: left;
   position: absolute;
   width: 290px ;
-top: 102%;
+top: 102vh;
 left: 1.5%;
 bottom: 600%;
 opacity: .0;
@@ -737,42 +739,10 @@ text-transform: uppercase;
   .logo .logo-content {
   text-align: left;
   position: center bottom;
+  top: 200vh;
   
   }
   
-  
-  .logo .logo-title {
-  color: #fff;
-  font-weight: 600;
-  font-size: 3rem;
-  text-align: top left;
-  font-family: 'Bebas Neue', sans-serif;
-  padding-top: 0;
-  margin-left: 0;
-  position: absolute;
-  
-  top: 210%;
-  left: 1.5%;
-  margin: auto;
-  
-  
-  
-  }
-  
-  .logo .logo-subtitle {
-  color: #fff;
-    font-size: 1.2rem;
-  font-weight: 500;
-  text-align: left;
-  left: 40px;  /* positioning of text */
-  font-family: 'Exo', sans-serif;
-  text-transform: uppercase;
-  position: absolute;
-  
-  top: 220%;
-  left: 1.5%;
-  
-  }
   
   
   /*======================================
@@ -792,43 +762,9 @@ text-transform: uppercase;
 .video .video-content {
   text-align: left;
   position: top;
-  top: 600%;
+  top: 600vh;
 }
 
-
-.video .video-title {
-  color: #fff;
-  font-weight: 600;
-  font-size: 3rem;
-  text-align: top left;
-  font-family: 'Bebas Neue', sans-serif;
-  padding-top: 0;
-  margin-left: 0;
-  position: absolute;
-  
-top: 610%;
-left: 1.5%;
-margin: auto;
-
-  
-  
-}
-
-.video .video-subtitle {
-  color: #fff;
-    font-size: 1.2rem;
-  font-weight: 500;
-  text-align: left;
-  left: 40px;  /* positioning of text */
-  font-family: 'Exo', sans-serif;
-  text-transform: uppercase;
-  position: absolute;
-  
-top: 620%;
-left: 1.5%;
-margin: auto;
-  
-}
 
 
 
@@ -845,9 +781,9 @@ margin: auto;
   
   .event .event-content {
     text-align: left;
-    position: top;
     left: -30px;
     padding: -20;
+    top: 300vh;
   }
   
   
@@ -860,7 +796,7 @@ margin: auto;
     height: 100%;
     width: 100%;
     opacity: .9;
-    position: fixed;
+    position: absolute;
   }
   
   .event .event-title {
@@ -873,7 +809,7 @@ margin: auto;
     margin-left: 0;
     position: absolute;
     
-  top: 310%;
+  top: 310vh;
   left: 1.5%;
   margin: auto;
 
@@ -891,7 +827,7 @@ margin: auto;
     text-transform: uppercase;
     position: absolute;
     
-  top: 320%;
+  top: 320vh;
   left: 1.5%;
   margin: auto;
     
@@ -911,6 +847,7 @@ margin: auto;
   position: top;
   left: -30px;
   padding: -20;
+  top: 400vh;
 }
 
 
@@ -934,7 +871,7 @@ margin: auto;
   padding-top: 0;
   margin-left: 0;
   position: absolute;
-top: 410%;
+top: 410vh;
 left: 1.5%;
 margin: auto;
 text-transform: uppercase;
@@ -951,7 +888,7 @@ text-transform: uppercase;
   text-transform: uppercase;
   width: 450px auto;
   position: absolute;
-top: 417%;
+top: 417vh;
 left: 1.5%;
 margin: auto;
   
@@ -984,8 +921,8 @@ padding: -20;
 
 .book .overlay-itro {
 background-color: rgba(15, 15, 15, 0.6);
-position: relative;
-top: 500;
+position: absolute;
+top: 500vh;
 left: 0px;
 padding: 0;
 height: 100%;
@@ -1002,7 +939,7 @@ font-family: 'Bebas Neue', sans-serif;
 padding-top: 0;
 margin-left: 0;
 position: absolute;
-top: 510%;
+top: 510vh;
 left: 1.5%;
 margin: auto;
 }
@@ -1016,7 +953,7 @@ font-family: 'Exo' , 'Bebas Neue' , sans-serif;
 text-transform: uppercase;
 width: 70%;
   position: absolute;
-top: 517%;
+top: 517vh;
 left: 1.5%;
 margin: auto;
 
