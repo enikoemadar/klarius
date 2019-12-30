@@ -874,7 +874,8 @@ text-transform: uppercase;
   margin-left: 0;
   position: absolute;
 top: 443vh;
-left: 85vh;
+left: center;
+text-align: center;
 margin: auto;
 text-transform: uppercase;
   
@@ -891,7 +892,8 @@ text-transform: uppercase;
   width: 450px auto;
   position: absolute;
 top: 450vh;
-left: 82vh;
+left: center;
+text-align: center;
 margin: auto;
   
 }
