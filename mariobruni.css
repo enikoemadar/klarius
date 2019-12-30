@@ -869,13 +869,13 @@ text-transform: uppercase;
   color: #fff;
   font-weight: 600;
   font-size: 3rem;
+  text-align: top left;
   font-family: 'Bebas Neue', sans-serif;
   padding-top: 0;
   margin-left: 0;
   position: absolute;
 top: 443vh;
-left: center;
-text-align: center;
+left: 1.5%;
 margin: auto;
 text-transform: uppercase;
   
@@ -885,15 +885,14 @@ text-transform: uppercase;
   color: #fff;
     font-size: 1.5rem;
   font-weight: 500;
-  text-align: center;
+  text-align: left;
   position: absolute;
   font-family: 'Exo' , 'Bebas Neue' , sans-serif;
   text-transform: uppercase;
   width: 450px auto;
   position: absolute;
 top: 450vh;
-left: center;
-text-align: center;
+left: 1.5%;
 margin: auto;
   
 }
